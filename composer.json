@@ -1,0 +1,25 @@
+{
+    "name": "lawrence72/sanitizer",
+    "description": "Sanitize user input in strings, arrays, objects and Flight Collections",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "flightphp/core": "^3.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lawrence72\\Sanitizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lawrence Cooke",
+            "email": "dev@koalacreek.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
